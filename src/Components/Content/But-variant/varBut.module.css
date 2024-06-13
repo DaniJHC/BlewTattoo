@@ -1,0 +1,14 @@
+.var{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.option{
+    width: 275px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}

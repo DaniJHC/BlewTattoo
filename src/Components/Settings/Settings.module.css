@@ -1,0 +1,54 @@
+.icons{
+    color: black;
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000;
+    margin-left: 758px;
+    margin-top: -215px;
+    width: 250px;
+    height: 250px;
+}
+
+/* Создание верхней части треугольной формы */
+
+.modal::before {
+    content: '';
+    position: absolute;
+    top: -24px; /* Расположение треугольника над верхней границей окна */
+    left: calc(50% - 22px); /* Центрируем треугольник горизонтально */
+    border-left: 22px solid transparent; /* Левая граница */
+    border-right: 22px solid transparent; /* Правая граница */
+    border-bottom: 22px solid black; /* Нижняя граница */
+    border-top: 2px solid black; /* Толщина тени */
+}
+
+.but{
+    background-color: #2e2e2e; /* Темный фон */
+    color: #e6e6e6; /* Светлый текст */
+    border: 2px solid #1c1c1c; /* Темная граница */
+    font-size: 16px; /* Размер шрифта */
+    padding: 10px 20px; /* Внутренние отступы */
+    text-transform: uppercase; /* Заглавные буквы */
+    letter-spacing: 2px; /* Расстояние между буквами */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Тень для объема */
+    cursor: pointer; /* Курсор указатель */
+    transition: all 0.3s ease; /* Плавные переходы */
+    border-radius: 5px;
+    width: 130px;
+    height: auto;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    bottom: 0;
+
+    margin-top: 170px;
+}

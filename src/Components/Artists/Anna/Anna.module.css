@@ -1,0 +1,218 @@
+.tattoo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: auto;
+    align-content: center;
+
+}
+.tattoo2 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.title{
+    color: black;
+    font-size: 80px;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.alert{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    color: black;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 100px;
+}
+.alert button{
+    background-color: #2e2e2e; /* Темный фон */
+    color: #e6e6e6; /* Светлый текст */
+    border: 2px solid #1c1c1c; /* Темная граница */
+    font-size: 25px; /* Размер шрифта */
+    padding: 10px 20px; /* Внутренние отступы */
+    text-transform: uppercase; /* Заглавные буквы */
+    letter-spacing: 2px; /* Расстояние между буквами */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Тень для объема */
+    cursor: pointer; /* Курсор указатель */
+    transition: all 0.3s ease; /* Плавные переходы */
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gothic-button:hover {
+    background-color: #1c1c1c; /* Изменение фона при наведении */
+    color: #ffffff; /* Изменение цвета текста при наведении */
+    border-color: #000000; /* Изменение цвета границы при наведении */
+}
+
+.gothic-button:active {
+    background-color: #0f0f0f; /* Изменение фона при нажатии */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Изменение тени при нажатии */
+    transform: translateY(2px); /* Смещение при нажатии */
+}
+.discount{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    margin-top: 3px;
+}
+.text{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+dialog {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 900px;
+    height: 600px;
+    width: 80%;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.appointment{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.appointment textarea{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    resize: none; /* Запрещает изменение размера */
+    overflow: auto;
+    resize: none;
+    padding: 10px;
+}
+.closeopen {
+    display: flex;
+    justify-content: space-between; /* Распределение по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    width: 800px;
+    margin-top: 150px;
+}
+.copy{
+    margin-top: 200px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width:300px;
+    height: auto;
+}
+.photo img{
+    width: 300px;
+    height: 240px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.aboutInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    width: 550px;
+    height: auto;
+    right: 0;
+    margin-top: -10px;
+}
+.textTattoo1{
+    color: black;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-right: 10px;
+}
+.textTattoo1 button{
+    background-color: #2e2e2e;
+    color: #e6e6e6;
+    border: 2px solid #1c1c1c;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+}
+.question{
+    text-align: center;
+    margin-left: 5px;
+    position: relative;
+}
+.textTattooBut button{
+    background-color: #2e2e2e;
+    color: #e6e6e6;
+    border: 2px solid #1c1c1c;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5%;
+    width: 150px;
+    height: auto;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    justify-content: left; /* Распределение по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    margin-top: 180px;
+    text-align: center;
+    margin-left: -420px;
+}
+.ref{
+    color: lightslategray;
+}
